@@ -1,0 +1,46 @@
+.borderDefault {
+  width: 90%;
+  margin-inline: auto;
+}
+body {
+    font-size: 15pt;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content flex-end;
+}
+
+.cabecalho__menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu__imagens, .menu__gmail {
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  color: gray;
+  
+  
+}
+.menu__UserImg{
+  width: 40px;
+}
+
+.UserImg__imageProfile {
+  border-radius: 50%;
+  width: 90%;
+  
+}
+
+.principle .principle__boxLogo{
+  width: inherit;
+}
+
+.principle__boxLogo .logo {
+  width: 90%;
+}
+
+
