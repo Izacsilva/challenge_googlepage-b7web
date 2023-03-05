@@ -1,46 +1,20 @@
-.borderDefault {
-  width: 90%;
-  margin-inline: auto;
-}
-body {
-    font-size: 15pt;
-}
-
-.cabecalho {
+.menu {
   display: flex;
-  justify-content flex-end;
+  border: 1px solid green;
 }
 
-.cabecalho__menu {
+.menu__section.right {
+  border: 1px solid #000;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 21px;
 }
 
-.menu__imagens, .menu__gmail {
-  display: inline-block;
-  font-size: 14px;
-  text-decoration: none;
-  color: gray;
-  
+.menu__profile {
   
 }
-.menu__UserImg{
+
+.menu__profile > img{
   width: 40px;
+  border: 1px solid red;
 }
-
-.UserImg__imageProfile {
-  border-radius: 50%;
-  width: 90%;
-  
-}
-
-.principle .principle__boxLogo{
-  width: inherit;
-}
-
-.principle__boxLogo .logo {
-  width: 90%;
-}
-
-
