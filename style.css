@@ -1,6 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
 .menu {
   display: flex;
   border: 1px solid green;
+  justify-content: space-between;
 }
 
 .menu__section.right {
@@ -11,7 +27,12 @@
 }
 
 .menu__profile {
-  
+  position: relative;
+}
+
+.menu__icon--frame {
+  position: absolute;
+  top: 0; left: 0;
 }
 
 .menu__profile > img{
