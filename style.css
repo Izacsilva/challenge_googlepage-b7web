@@ -17,6 +17,7 @@ body {
   display: flex;
   border: 1px solid green;
   justify-content: space-between;
+  padding: 0.8rem;
 }
 
 .menu__section.right {
@@ -28,14 +29,16 @@ body {
 
 .menu__profile {
   position: relative;
+  border: solid 1px red;
 }
 
-.menu__icon--frame {
+.menu__profile__avatar {
+  width: 4.2rem;
+  height: auto;
+  border-radius: 50%;
   position: absolute;
-  top: 0; left: 0;
-}
-
-.menu__profile > img{
-  width: 40px;
-  border: 1px solid red;
+  top: 7px; left: 7px;
+  margin: 0 auto;
+  border: solid 1px greenyellow;
+  
 }
