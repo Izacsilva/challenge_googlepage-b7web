@@ -2,59 +2,29 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/styles/default-style.css">
+  <link rel="stylesheet" href="/styles/main-style.css">
+  <link rel="stylesheet" href="/styles/header-style.css">
   <title>Search google page</title>
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <header class="menu">
     <section class="menu__section left">
-      <svg width="45" height="46" viewBox="0 0 45 46" class="menu__icon" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="45" height="45" fill="white" />
-        <rect x="10" y="9" width="26" height="6" rx="1" fill="#D9D9D9" />
-        <rect x="10" y="19" width="26" height="6" rx="1" fill="#D9D9D9" />
-        <rect x="10" y="29" width="26" height="6" rx="1" fill="#D9D9D9" />
-      </svg>
+      <img src="/images/menu-burguer.svg" alt="" class="menu__icon">
     </section>
     <section class="menu__section right">
       <a href="#" class="menu__link">Imagens</a>
       <a href="#" class="menu__link">gmail</a>
-      <svg width="40" height="40" viewBox="0 0 40 40" class="menu__icon" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="8" y="8" width="6" height="6" rx="1" fill="#C4C4C4" />
-        <rect x="17" y="8" width="6" height="6" rx="1" fill="#C4C4C4" />
-        <rect x="26" y="8" width="6" height="6" rx="1" fill="#C4C4C4" />
-        <rect x="8" y="17" width="6" height="6" rx="1" fill="#C4C4C4" />
-        <rect x="17" y="17" width="6" height="6" rx="1" fill="#C4C4C4" />
-        <rect x="26" y="17" width="6" height="6" rx="1" fill="#C4C4C4" />
-        <rect x="8" y="26" width="6" height="6" rx="1" fill="#C4C4C4" />
-        <rect x="17" y="26" width="6" height="6" rx="1" fill="#C4C4C4" />
-        <rect x="26" y="26" width="6" height="6" rx="1" fill="#C4C4C4" />
-      </svg>
-      <div class="menu__profile">
-        <svg class="menu__profile__avatar" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M38.8545 110.995C38.8545 131.437 31.9149 136.854 23.3545 136.854C14.7941 136.854 7.85449 131.263 7.85449 110.995C7.85449 96.7136 14.7941 89.8538 23.3545 89.8538C31.9149 89.8538 38.8545 96.7136 38.8545 110.995Z" fill="#AD612D" />
-          <path d="M147.854 110.995C147.854 131.437 140.915 136.854 132.354 136.854C123.794 136.854 116.854 131.263 116.854 110.995C116.854 96.7136 123.794 89.8538 132.354 89.8538C140.915 89.8538 147.854 96.7136 147.854 110.995Z" fill="#AD612D" />
-          <path d="M134.854 111.854C134.854 170.354 109.335 185.854 77.8545 185.854C46.3743 185.854 20.8545 169.854 20.8545 111.854C20.8545 70.9847 46.3743 51.3538 77.8545 51.3538C109.335 51.3538 134.854 70.9847 134.854 111.854Z" fill="#B06735" />
-          <rect x="41.8545" y="89.8538" width="23" height="4" rx="2" fill="#582D0F" />
-          <rect x="90.8545" y="89.8538" width="23" height="4" rx="2" fill="#582D0F" />
-          <rect x="72.8545" y="137.854" width="9" height="2" rx="1" fill="#582D0F" />
-          <ellipse cx="53.8545" cy="111.354" rx="7" ry="7.5" fill="#3C200D" />
-          <ellipse cx="102.854" cy="111.354" rx="7" ry="7.5" fill="#3C200D" />
-          <path d="M99.8545 148.968C93.8886 153.31 85.6533 155.854 77.8545 155.854C68.6964 155.854 61.3155 152.347 54.8545 146.537" stroke="#582D0F" stroke-width="4" stroke-linecap="round" />
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M46.5069 41.4975C46.4183 41.4287 46.3304 41.3591 46.2432 41.2886L46.2 41.3699C46.3028 41.4117 46.4051 41.4542 46.5069 41.4975ZM40.7881 20.3433C42.6197 14.6594 46.6531 9.20294 52.4961 5.26388C64.4484 -2.79384 79.4469 -1.45069 85.996 8.26388C86.3576 8.80034 86.6859 9.3511 86.9815 9.91431C97.9791 4.83764 110.245 6.91307 115.996 15.4436C116.611 16.3562 117.13 17.3102 117.555 18.2965C125.468 17.5548 132.891 20.355 136.996 26.4436C139.36 29.9505 140.3 34.0689 139.974 38.2795C142.353 40.0401 144.56 42.2193 146.472 44.7861C153.402 54.0907 154.341 65.6523 149.545 73.4592C151.6 77.1121 152.855 81.9926 152.855 87.3538C152.855 97.9548 147.948 106.676 141.656 107.744C138.757 117.947 134.608 131.178 131.791 135.736C129.825 142.398 129.696 117.906 129.953 98.7272C128.866 96.0588 128.151 92.9485 127.928 89.5955C119.934 88.1678 113.855 80.9916 113.855 72.3538C113.855 72.2011 113.856 72.049 113.86 71.8973C113.373 71.3301 112.901 70.7405 112.445 70.1289C112.333 69.9782 112.222 69.8269 112.113 69.6751C111.212 69.7929 110.291 69.8538 109.355 69.8538C101.067 69.8538 93.9876 65.0818 91.1641 58.3523C87.2305 65.1908 79.3878 69.8538 70.3546 69.8538C64.9742 69.8538 60.0162 68.1995 56.055 65.4167C53.1135 71.2727 46.8618 75.4236 39.5174 75.8223C39.7385 76.8014 39.8546 77.8153 39.8546 78.8538C39.8546 85.7627 34.7164 91.5807 27.7245 93.3221C27.4846 96.0346 26.9208 98.5751 26.0996 100.835C26.3557 119.82 26.1178 142.32 23.8546 135.854C20.7883 131.672 16.4107 120.287 13.0233 110.498C7.23384 108.707 2.85456 100.369 2.85456 90.3538C2.85456 86.4521 3.51919 82.805 4.67291 79.7004C0.22587 76.1083 -1.33823 68.2947 1.25475 60.4819C3.47406 53.795 8.13469 48.9284 13.0134 47.5265C10.4703 41.1567 13.215 32.3175 20.235 25.9934C26.6567 20.2082 34.7996 18.2001 40.7881 20.3433Z" fill="#291508" />
-          <path d="M72.3542 111.854C71.2224 124.854 63.3543 124.854 46.676 124.854C36.3547 124.854 33.8545 119.033 33.8545 111.854C33.8545 104.674 34.3555 98.8538 54.8555 98.8538C66.1773 98.8538 73.3555 100.354 72.3542 111.854ZM72.3542 111.854H86.8545M86.8545 111.854C86.8545 119.033 89.3547 124.854 99.676 124.854C116.354 124.854 124.222 124.854 125.354 111.854C126.355 100.354 119.177 98.8538 107.855 98.8538C87.3555 98.8538 86.8545 104.674 86.8545 111.854Z" stroke="#572626" stroke-width="5" />
-        </svg>
-        
-        <svg class="menu__profile__frame" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10.5286 18.2659C15.9046 8.61673 28.0849 5.15267 37.734 10.5287" stroke="#38B137" stroke-width="2" stroke-linecap="round" />
-          <path d="M45.4713 37.7341C40.0953 47.3833 27.915 50.8473 18.2659 45.4713" stroke="#3780FF" stroke-width="2" stroke-linecap="round" />
-          <path d="M45.4713 37.7341C50.8473 28.085 47.3833 15.9047 37.7341 10.5287" stroke="#FA3913" stroke-width="2" stroke-linecap="round" />
-          <path d="M18.266 45.4713C8.61687 40.0953 5.15281 27.915 10.5288 18.2659" stroke="#FCBD06" stroke-width="2" stroke-linecap="round" />
-        </svg>
-       
-      </div>  
-    
+      
+      <img src="images/bottom-more-apps.svg" alt="Menu de aplicativos do google" class="menu__icon">
+      
+      <img src="/images/avatar.svg" alt="" class="menu__profile">
+
     </section>
   </header>
   <main class="content">

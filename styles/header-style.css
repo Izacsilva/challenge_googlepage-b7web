@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3.2rem;
+  }
+  
+  .menu__section.left {
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu__section.right {
+    
+    /* border: solid 1px red; */
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
+  
+  .menu__profile {
+    border-radius: 100%;
+    width: 4.2rem;
+  }
